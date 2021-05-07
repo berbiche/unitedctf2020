@@ -1,0 +1,31 @@
+# Ignore everything
+*
+
+# Allow some web challenges solutions
+!/web/
+!/web/sql3.py
+!/web/sql4.py
+!/web/javascript2.js
+
+# Allow crypto solutions
+!/crypto/
+!/crypto/aes-client.py
+!/crypto/aes-client-ctr.py
+!/crypto/aes-client-ecb.py
+!/crypto/aes-client-ecb-byte-by-byte.py
+
+# Allow programming solutions
+!/programming/
+!/programming/challenge*.py
+
+# Allow pwning solutions
+!/pwn/
+!/pwn/le_lac.py
+!/pwn/le_ruisseau.py
+!/pwn/la_goutte.py
+
+!/reverse/
+!/reverse/sol-tooslow
+!/reverse/sol-tooslow/ld-preload-trick.cpp
+!/reverse/angr_*.py
+!/reverse/default.nix
